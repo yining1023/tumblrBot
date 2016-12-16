@@ -2,7 +2,7 @@
   "name": "tumblr_bot_100days",
   "version": "1.0.0",
   "description": "Tumblr Bot Example reblog tagged posts",
-  "main": "bot.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"

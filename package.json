@@ -1,0 +1,15 @@
+{
+  "name": "tumblr_bot_100days",
+  "version": "1.0.0",
+  "description": "Tumblr Bot Example reblog tagged posts",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yining Shi",
+  "license": "ISC",
+  "dependencies": {
+    "tumblr.js": "^1.1.1"
+  }
+}

@@ -3,8 +3,6 @@
 
 // IMPORT NECESSARY LIBRARIES
 var tumblr = require('tumblr.js');
-var fs = require('fs');
-var request = require('request');
 
 // GET THE CURRENT TIME FOR WHEN THE BOT STARTS
 var currentdate = new Date(); 

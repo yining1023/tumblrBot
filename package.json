@@ -4,12 +4,15 @@
   "description": "Tumblr Bot Example reblog tagged posts",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Yining Shi",
   "license": "ISC",
   "dependencies": {
     "tumblr.js": "^1.1.1"
+  },
+  "engines": {
+    "node": "4.1.1"
   }
 }

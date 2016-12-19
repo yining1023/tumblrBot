@@ -10,6 +10,7 @@
   "author": "Yining Shi",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.14.0",
     "tumblr.js": "^1.1.1"
   },
   "engines": {

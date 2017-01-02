@@ -169,7 +169,7 @@ function reblogPosts() {
 	});
 	console.log("waiting 24 hours before next post");
 	waiting = true;
-	setTimeout(updateCounter, 1000*30);
+	// setTimeout(updateCounter, 1000*30);
 }
 
 // function updateCounter() {

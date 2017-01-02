@@ -2,3 +2,4 @@
 .DS_Store
 .config
 npm-debug.log
+config.js

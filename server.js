@@ -35,7 +35,7 @@ var config = require('./config'); //SEPARATE CONFIG FILE FOR STORING KEYS ETC
 // var client = tumblr.createClient( config );
 
 // KEEP TRACK OF WHAT DAY IT IS FOR THE CHALLENGE (BOT WRITTEN ON DAY 15)
-var dayCounter = 1;
+// var dayCounter = 1;
 
 var ESTdate = '2016-12-04';
 
@@ -81,7 +81,7 @@ function reblogPosts() {
 
 	// Make the request
 	var client = tumblr.createClient({ consumer_key: 'dCCvvgNze9Yauhy9RxAmgsxoESLHIdGgkorOFIMHuvxVPge4zE' });
-	client.taggedPosts('100daysitp2017', function (err, data) {
+	client.taggedPosts('100daysITP2017', function (err, data) {
 
 		if (err) {
 			console.log(err);
@@ -148,7 +148,7 @@ function reblogPosts() {
 					var postData = {
 						id: data[i].id,
 						reblog_key: data[i].reblog_key,
-						comment: "Day " + dayCounter + " - Post by " + name + " on " + postDate
+						comment: "Post by " + name + " on " + postDate
 					}
 
 					console.log(postData);
@@ -172,12 +172,12 @@ function reblogPosts() {
 	setTimeout(updateCounter, 1000*30);
 }
 
-function updateCounter() {
-	var currentTime = new Date();
-	var stateingDate = new Date(2017, 01, 26);
-	if (currentTime.getTime() - startClass.getTime() > 0) {
-		dayCounter++;
-	} else {
-		console.log('waiting until 2017/01/26 to add day number');
-	}
-}
+// function updateCounter() {
+// 	var currentTime = new Date();
+// 	var stateingDate = new Date(2017, 01, 26);
+// 	if (currentTime.getTime() - startClass.getTime() > 0) {
+// 		dayCounter++;
+// 	} else {
+// 		console.log('waiting until 2017/01/26 to add day number');
+// 	}
+// }

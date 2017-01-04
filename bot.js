@@ -28,7 +28,7 @@ client.blogPosts('100daysitp2017.tumblr.com', function (err, data) {
 
 		// reblog a post
 		postsTobe.forEach(function(post) {
-			var client = tumblr.createClient({ consumer_key: 'dCCvvgNze9Yauhy9RxAmgsxoESLHIdGgkorOFIMHuvxVPge4zE' });
+			var client = tumblr.createClient({ consumer_key: '' });
 
 			var options = {
 				'id': post.id,

@@ -80,7 +80,7 @@ function reblogPosts() {
 	console.log("Reblogging class posts");
 
 	// Make the request
-	var client = tumblr.createClient({ consumer_key: 'dCCvvgNze9Yauhy9RxAmgsxoESLHIdGgkorOFIMHuvxVPge4zE' });
+	var client = tumblr.createClient({ consumer_key: '' });
 	client.taggedPosts('100daysITP2017', function (err, data) {
 
 		if (err) {
@@ -109,10 +109,10 @@ function reblogPosts() {
 			// fs.writeFile("tagsData.json", json, function(){console.log("writing json response")});
 				
 			var client = tumblr.createClient({
-			  consumer_key: 'dCCvvgNze9Yauhy9RxAmgsxoESLHIdGgkorOFIMHuvxVPge4zE',
-			  consumer_secret: 'VqW02VQR5Q8rEaTuJjm6zK3pUA9Ibb7W9TSEuuhDtAEQz8RlLt',
-			  token: 'EWNOyDKWS63AV48nMNVREKZPs5GzTDmHxGWlY0e0otb9pyqPJy',
-			  token_secret: 'RMS19QPXxAciZRbRjYkwTeEfiw84vb7stERGvqgh2NhhqPXNev'
+			  consumer_key: '',
+			  consumer_secret: '',
+			  token: '',
+			  token_secret: ''
 			});
 			for (var i = 0; i < data.length; i++) {
 				// // //RETRIEVE TODAY'S DATE
